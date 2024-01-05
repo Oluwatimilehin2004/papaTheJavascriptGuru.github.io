@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: orange;
+}
+.container{
+    /* border: 2px solid black; */
+
+    width: 95%;
+    height: 100vh;
+    display: flex;
+}
+
+.quotes{
+     height: 450px;
+     width: 900px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0 50px;
+     color: gray;
+     background-color: white;
+     border: 10px solid gray;
+     border-radius: 2px;
+}
+
+
+.quotes p, .quotes h1{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h1{
+        font-size: 1rem;
+    }
+}
